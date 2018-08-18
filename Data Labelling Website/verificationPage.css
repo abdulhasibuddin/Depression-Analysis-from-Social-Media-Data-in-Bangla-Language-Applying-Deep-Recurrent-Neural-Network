@@ -1,0 +1,91 @@
+#bodyId{
+	width: 960px;
+	margin: 0px auto;
+	background-image: url("images/Sky1.jpg");
+	/*background-color: #e6e6ff;*/
+	/*background-color: #000000;*/
+}
+#textId{
+	text-align: center;
+}
+#tableId{
+	width: 40%;
+	height: 450px;
+	/*background-color: #000000;*/
+	margin-left: 30%;
+	padding-top: 2.5%;
+	padding-bottom: 0%;
+	/*border-radius: 3%;*/
+	opacity: 1;
+	filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+#td1{
+	padding-left: 8%;
+	color: #ffffff;
+	font-weight: bold;
+}
+#errorId{
+	font-style: italic;
+	color: red;
+}
+#submitId{ 
+	/*border: none;*/
+	font-weight: bold;
+	height: 40px;
+	color: #ffffff;
+	background-color: #000000;
+}
+#submitId:hover{
+	background-color: #668cff;
+	color: #00ff00;
+}
+
+/*Media Queries::********************/
+@media screen and (min-width: 961px){
+	#bodyId{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px){
+	#headerId{
+		padding-left: 32%; 
+	}
+	#bodyId{
+		width: 100%;
+	}
+	#tableId{
+		width: 80%;
+		margin-left: 10%;
+		border-radius: 1%;
+	}
+	#inputId{ 
+		width: 90%; 
+	}
+	#submitId{
+		width: 25%; 
+	}
+}
+@media screen and (max-width: 480px){
+	#headerId{
+		padding-left: 23%; 
+	}
+	#bodyId{
+		width: 100%;
+	}
+	#tableId{
+		width: 100%;
+		margin-left: 0%;
+		border-radius: 0%;
+	}
+	#inputId{ 
+		width: 90%; 
+	}
+	#submitId{
+		width: 25%; 
+	}
+}
+@media screen and (max-width: 320px){
+	#bodyId{
+		width: 320px;
+	}
+}

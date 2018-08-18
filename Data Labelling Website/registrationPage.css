@@ -1,0 +1,126 @@
+#bodyId{
+	width: 960px;
+	margin: 0px auto;
+	background-image: url("images/Sky1.jpg");
+	/*background-color: #e6e6ff;*/
+	/*background-color: #669900;*/
+}
+#headerId{
+	padding-left: 33.5%; 
+	color: #ffffff;
+	font-weight: bold;
+}
+#tableId{
+	width: 40%;
+	height: 1400px;
+	/*background-color: #000000;*/
+	margin-left: 30%;
+	padding-top: 2.5%;
+	padding-bottom: 0%;
+	/*border-radius: 3%;*/
+	opacity: 1;
+	filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+#td1{
+	padding-left: 8%;
+	color: #ffffff;
+	font-weight: bold;
+}
+#td2{
+	
+}
+#error
+{
+	font-style: italic;
+	color: red;
+	font-size: small;
+}
+#submitId{
+	height: 40px; 
+	width: 20%; 
+	border-radius: 3%;
+	/*border: none;*/
+	float: right;
+	/*margin-right: 7%;*/
+	margin-right: 44%;
+	margin-top: 5%;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #000000;
+}
+#submitId:hover{
+	background-color: #668cff;
+}
+#footerId{
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 5px;
+	margin-bottom: 25px;
+	height: 25px;
+	width: 100%;
+	background-color: grey;
+}
+#inputId{
+	height: 25px; 
+	width: 55%; 
+	border-radius: 0%;
+	background-color: none;
+	color: #000000;
+	font-weight: bold;
+}
+#pass_message{
+	font-size: small;
+	font-style: italic;
+	color: white;
+
+}
+
+/*Media Queries::********************/
+@media screen and (min-width: 961px){
+	#bodyId{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px){
+	#headerId{
+		padding-left: 32%; 
+	}
+	#bodyId{
+		width: 100%;
+	}
+	#tableId{
+		width: 80%;
+		margin-left: 10%;
+		border-radius: 1%;
+	}
+	#inputId{ 
+		width: 90%; 
+	}
+	#submitId{
+		width: 25%; 
+	}
+}
+@media screen and (max-width: 480px){
+	#headerId{
+		padding-left: 23%; 
+	}
+	#bodyId{
+		width: 100%;
+	}
+	#tableId{
+		width: 100%;
+		margin-left: 0%;
+		border-radius: 0%;
+	}
+	#inputId{ 
+		width: 90%; 
+	}
+	#submitId{
+		width: 25%; 
+	}
+}
+@media screen and (max-width: 320px){
+	#bodyId{
+		width: 320px;
+	}
+}
