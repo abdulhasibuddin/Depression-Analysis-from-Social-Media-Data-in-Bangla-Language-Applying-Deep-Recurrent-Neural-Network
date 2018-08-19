@@ -9,7 +9,7 @@
 	<form action="" method="post">
 		<br><br>
 		<div>
-			<button type="submit" name="admin">Go to Admin Panel</button>
+			<button type="submit" name="adminPanel">Go to Admin Panel</button>
 			<br>
 			<button type="submit" name="labelData">Start Data Labeling</button>
 		</div>
