@@ -32,15 +32,15 @@
 				<br>
 				<div>
 					<input type="radio" name="label'.$tweet_no.'" value="positive" required>পজেটিভ ।
-
+					<br>
 					<input type="radio" name="label'.$tweet_no.'" value="neutral">নিরপেক্ষ ।
-
+					<br>
 					<input type="radio" name="label'.$tweet_no.'" value="depressive">হতাশাব্যঞ্জক ।
-
+					<br>
 					<input type="radio" name="label'.$tweet_no.'" value="sim_negative">নেগেটিভ কিন্তু হতাশাব্যঞ্জক নয় ।
-
+					<br>
 					<input type="radio" name="label'.$tweet_no.'" value="ambiguous">দুর্বোধ্য ।
-
+					<br>
 					<input type="radio" name="label'.$tweet_no.'" value="incomplete">অসম্পূর্ণ ।
 				</div>
 				<div style="text-align: center;">---------- ---------- ----------<br><br></div>
