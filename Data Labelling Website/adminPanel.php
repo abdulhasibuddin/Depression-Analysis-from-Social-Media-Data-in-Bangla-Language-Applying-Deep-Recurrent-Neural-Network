@@ -7,7 +7,15 @@
 <body>
 	<form>
 		<div style="text-align: center; color: indigo;">
-			<?php echo "Total ".$num_labelled_tweets." row(s) are labelled!"; ?>
+			<?php
+				$info = '<table><tr><th>tweet_label</th><th>label_statistics</th></tr>';
+				//echo "Total ".$num_labelled_tweets." row(s) are labelled!";
+				while($row = $result->fetch_assoc()){
+					$info .= "<tr><td>".$row["tweet_label"]."</td><td>".$row["label_statistics"]."</td></tr>";
+				}
+				$info .= '</table>';
+				echo $info;
+			?>
 		</div>
 		<br>
 		<div>
