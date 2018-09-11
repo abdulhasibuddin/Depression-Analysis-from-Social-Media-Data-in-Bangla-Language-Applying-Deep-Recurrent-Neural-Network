@@ -40,12 +40,46 @@
 		for ($i=$rowcount; $i >= 1; $i--) {
 			$option_no = "label".$tweet_no;
 			$label = $_POST[$option_no];
-			$sql = "UPDATE registrationTable, tweets 
+			/*$sql = "UPDATE registrationTable, tweets 
 					SET tweets.label_1='$label', 
 						tweets.labeller_1=registrationTable.id 
 					WHERE tweets.tweet_id='$tweet_no' 
 					AND registrationTable.eMail='$user'
-					;";
+					;";*/
+			$sql = "UPDATE tweets, registrationTable
+					SET tweets.label_1 = CASE 
+					WHEN tweets.labeller_1 IS NULL 
+					THEN '$label' 
+					ELSE tweets.label_1 
+					END,
+					tweets.labeller_1 = CASE 
+					WHEN tweets.labeller_1 IS NULL 
+					THEN registrationTable.id 
+					ELSE tweets.labeller_1 
+					END,
+					tweets.label_2 = CASE 
+					WHEN tweets.labeller_1 IS NOT NULL 
+					AND tweets.labeller_2 IS NULL 
+					AND tweets.labeller_1!=(
+					    SELECT registrationTable.id 
+					    FROM registrationTable 
+					    WHERE registrationTable.eMail='$user') 
+					THEN '$label' 
+					ELSE tweets.label_2 
+					END,
+					tweets.labeller_2 = CASE 
+					WHEN tweets.labeller_1 IS NOT NULL 
+					AND tweets.labeller_2 IS NULL 
+					AND tweets.labeller_1!=(
+					    SELECT registrationTable.id 
+					    FROM registrationTable 
+					    WHERE registrationTable.eMail='$user') 
+					THEN registrationTable.id 
+					ELSE tweets.labeller_2 
+					END
+					WHERE tweets.tweet_id='$tweet_no'
+					AND registrationTable.eMail='$user';";
+
 			$tweet_no--;
 
 			if ($conn->query($sql) === FALSE) {
@@ -61,10 +95,14 @@
 		}*/
 	}
 
-	$sql = "SELECT * FROM tweets 
-			WHERE label_1 IS NULL 
-			AND labeller_1 IS NULL 
-			LIMIT 10";
+	//Select Tweets::
+	$sql = "SELECT DISTINCT tweets.* 
+			FROM tweets, registrationTable
+			WHERE tweets.labeller_1 IS NULL 
+			OR (tweets.labeller_2 IS NULL 
+			    AND (tweets.labeller_1!=registrationTable.id
+			        AND registrationTable.eMail='$user')) 
+			LIMIT 10;";
 
 	mysqli_set_charset($conn, 'utf8');
 	$result = $conn->query($sql);
