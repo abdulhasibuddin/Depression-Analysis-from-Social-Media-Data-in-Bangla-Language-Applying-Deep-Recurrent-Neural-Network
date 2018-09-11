@@ -6,7 +6,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Data Labeling</title>
 </head>
-<body>
+<body style="font-size: xx-large;">
 	<form method="post" action="">
 		<br><br>
 
@@ -31,17 +31,17 @@
 				</div>
 				<br>
 				<div>
-					<input type="radio" name="label'.$tweet_no.'" value="positive" required>পজেটিভ ।
-					<br>
-					<input type="radio" name="label'.$tweet_no.'" value="neutral">নিরপেক্ষ ।
-					<br>
-					<input type="radio" name="label'.$tweet_no.'" value="depressive">হতাশাব্যঞ্জক ।
-					<br>
-					<input type="radio" name="label'.$tweet_no.'" value="sim_negative">নেগেটিভ কিন্তু হতাশাব্যঞ্জক নয় ।
-					<br>
-					<input type="radio" name="label'.$tweet_no.'" value="ambiguous">দুর্বোধ্য ।
-					<br>
-					<input type="radio" name="label'.$tweet_no.'" value="incomplete">অসম্পূর্ণ ।
+					<input type="radio" name="label'.$tweet_no.'" value="positive" style="margin-left: 20%; height:80px; width:80px;" required><strong>&nbsp;&nbsp;&nbsp;পজেটিভ ।</strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="neutral" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;নিরপেক্ষ ।<strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="depressive" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;হতাশাব্যঞ্জক ।</strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="sim_negative" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;নেগেটিভ কিন্তু হতাশাব্যঞ্জক নয় ।</strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="ambiguous" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;দুর্বোধ্য ।</strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="incomplete" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;অসম্পূর্ণ ।</strong>
 				</div>
 				<div style="text-align: center;">---------- ---------- ----------<br><br></div>
 				';
@@ -51,13 +51,15 @@
 		echo $string;
 		?>
 
-		<input style="float: right; margin-right: 5%; padding: 1% 2%;" type="submit" name="labels_submit" value="Submit">
+		<input style="float: right; margin-right: 5%; padding: 1% 2%; font-size: xx-large;" type="submit" name="labels_submit" value="Submit">
 
 		<br>
-		<div>
+		<div style="font-size: xx-large;">
 			<a href="authenticatedUser.php"><strong><-Back</strong></a>
 		</div>
-		<footer id="footerId"><a href="logOut.php"><strong>Logout</strong></a></footer>
+		<br><br>
+		<footer id="footerId" style="font-size: xx-large;"><a href="logOut.php"><strong>Logout</strong></a></footer>
+		<br><br><br><br>
 	</form>
 </body>
 </html>
