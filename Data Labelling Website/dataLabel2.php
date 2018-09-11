@@ -20,9 +20,9 @@
 
 	require 'config.php';
 
-	$sql = "SELECT registrationtable.id 
-				FROM registrationtable 
-				WHERE registrationtable.eMail='$user';";
+	$sql = "SELECT registrationTable.id 
+				FROM registrationTable 
+				WHERE registrationTable.eMail='$user';";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
 		while ($row = $result->fetch_assoc()) {
