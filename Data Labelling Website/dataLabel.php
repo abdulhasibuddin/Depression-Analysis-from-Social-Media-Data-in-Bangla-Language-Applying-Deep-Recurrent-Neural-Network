@@ -31,17 +31,25 @@
 				</div>
 				<br>
 				<div>
-					<input type="radio" name="label'.$tweet_no.'" value="positive" style="margin-left: 20%; height:80px; width:80px;" required><strong>&nbsp;&nbsp;&nbsp;পজেটিভ ।</strong>
+					<input type="radio" name="label'.$tweet_no.'" value="positive" style="margin-left: 20%; height:80px; width:80px;" required><strong>&nbsp;&nbsp;&nbsp;
+					ভালো আবেগ প্রকাশ করে ।</strong>
 					<br><br>
-					<input type="radio" name="label'.$tweet_no.'" value="neutral" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;নিরপেক্ষ ।<strong>
+					<input type="radio" name="label'.$tweet_no.'" value="depressive" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;
+					হতাশাব্যঞ্জক আবেগ প্রকাশ করে ।</strong>
 					<br><br>
-					<input type="radio" name="label'.$tweet_no.'" value="depressive" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;হতাশাব্যঞ্জক ।</strong>
+					<input type="radio" name="label'.$tweet_no.'" value="simple_negative" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;
+					খারাপ কিন্তু হতাশাব্যঞ্জক নয় - এমন আবেগ প্রকাশ করে।</strong>
 					<br><br>
-					<input type="radio" name="label'.$tweet_no.'" value="sim_negative" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;নেগেটিভ কিন্তু হতাশাব্যঞ্জক নয় ।</strong>
+					<input type="radio" name="label'.$tweet_no.'" value="unclassified_emotion" style="margin-left: 20%; height:80px; width:80px;" required><strong>&nbsp;&nbsp;&nbsp;
+					আবেগ প্রকাশ করে, যা উপরের কোন শ্রেনীর অন্তর্ভুক্ত নয়।</strong>
 					<br><br>
-					<input type="radio" name="label'.$tweet_no.'" value="ambiguous" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;দুর্বোধ্য ।</strong>
+					<input type="radio" name="label'.$tweet_no.'" value="neutral" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;
+					কোন আবেগ প্রকাশ করে না ।<strong>
 					<br><br>
-					<input type="radio" name="label'.$tweet_no.'" value="incomplete" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;অসম্পূর্ণ ।</strong>
+					<input type="radio" name="label'.$tweet_no.'" value="ambiguous" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;
+					কোন ধরনের আবেগ প্রকাশ করে কি-না তা বোঝা যাচ্ছে না ।</strong>
+					<br><br>
+					<input type="radio" name="label'.$tweet_no.'" value="incomplete" style="margin-left: 20%; height:80px; width:80px;"><strong>&nbsp;&nbsp;&nbsp;অসম্পূর্ণ বাক্য ।</strong>
 				</div>
 				<div style="text-align: center;">---------- ---------- ----------<br><br></div>
 				';
