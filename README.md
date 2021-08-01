@@ -17,15 +17,15 @@ Depression analysis on text data is a very hard process, as it requires bothpsyc
 
 
 **Directories**  
-*Data Collection Website: * https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Data%20Labelling%20Website
-*Data Cleaning Algorithm: * https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/Data%20Cleaning%20and%20MySQL%20Database.ipynb
+*Data Collection Website:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Data%20Labelling%20Website
+*Data Cleaning Algorithm:* https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/Data%20Cleaning%20and%20MySQL%20Database.ipynb
 *Depression Analysis with Long Short-term Memory (LSTM) on Balanced Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations
 *Implementations with Stop Words in the Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/New%20Implementations
 *Final Implementations (LSTM, GRU, Hyper-paramemter Tuning, 10-folds Cross-validation):* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL
 
 
 **Training**
-*GRU Hyper-paramemter Tuning (Validation Accuracy vs. Iterations): * (https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/GRU_vs_LSTM_FINAL/images/gru_image_1_plotting%20_validation%20_accuracies%20_against%20_iterations.png)
+![GRU Hyper-paramemter Tuning (Validation Accuracy vs. Iterations)] (https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/GRU_vs_LSTM_FINAL/images/gru_image_1_plotting%20_validation%20_accuracies%20_against%20_iterations.png)
 
 
 **Thesis Link**
