@@ -17,21 +17,21 @@ Depression analysis on text data is a very hard process, as it requires bothpsyc
 
 
 **Directories**  
-*Data Collection Website:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Data%20Labelling%20Website
-*Data Cleaning Algorithm:* https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/Data%20Cleaning%20and%20MySQL%20Database.ipynb
-*Depression Analysis with Long Short-term Memory (LSTM) on Balanced Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations
-*Implementations with Stop Words in the Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/New%20Implementations
-*Final Implementations (LSTM, GRU, Hyper-paramemter Tuning, 10-folds Cross-validation):* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL
-*Training Images:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL/images 
+*Data Collection Website:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Data%20Labelling%20Website  
+*Data Cleaning Algorithm:* https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/Data%20Cleaning%20and%20MySQL%20Database.ipynb  
+*Depression Analysis with Long Short-term Memory (LSTM) on Balanced Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations  
+*Implementations with Stop Words in the Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/New%20Implementations  
+*Final Implementations (LSTM, GRU, Hyper-paramemter Tuning, 10-folds Cross-validation):* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL  
+*Training Images:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL/images  
 
 
 **Thesis Link**
-https://www.researchgate.net/publication/330635624_Depression_Analysis_from_Social_Media_Data_in_Bangla_Language_Applying_Deep_Recurrent_Neural_Networks
+https://www.researchgate.net/publication/330635624_Depression_Analysis_from_Social_Media_Data_in_Bangla_Language_Applying_Deep_Recurrent_Neural_Networks  
 
 
 **Dataset**  
-https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations
-*Create .arff File for Weka Implementation:* https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/GRU_vs_LSTM_FINAL/Depression%20dataset%20arff%20file.ipynb
+https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations  
+*Create .arff File for Weka Implementation:* https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/GRU_vs_LSTM_FINAL/Depression%20dataset%20arff%20file.ipynb  
 
 
 **Related Publications**  
