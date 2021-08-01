@@ -22,10 +22,7 @@ Depression analysis on text data is a very hard process, as it requires bothpsyc
 *Depression Analysis with Long Short-term Memory (LSTM) on Balanced Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations
 *Implementations with Stop Words in the Dataset:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/New%20Implementations
 *Final Implementations (LSTM, GRU, Hyper-paramemter Tuning, 10-folds Cross-validation):* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL
-
-
-**Training**
-![GRU Hyper-paramemter Tuning (Validation Accuracy vs. Iterations)] (https://github.com/abdulhasibuddin/My-Thesis-Works/blob/master/GRU_vs_LSTM_FINAL/images/gru_image_1_plotting%20_validation%20_accuracies%20_against%20_iterations.png)
+*Training Images:* https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/GRU_vs_LSTM_FINAL/images 
 
 
 **Thesis Link**
@@ -38,6 +35,6 @@ https://github.com/abdulhasibuddin/My-Thesis-Works/tree/master/Implementations
 
 
 **Related Publications**  
-1. **Uddin, Abdul Hasib**, Durjoy Bapery, and Abu Shamim Mohammad Arif. "Depression Analysis of Bangla Social Media Data using Gated Recurrent Neural Network." In 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), pp. 1-6. IEEE, 2019. DOI: 10.1109/ICASERT.2019.8934455  
-2. **Uddin, Abdul Hasib**, Durjoy Bapery, and Abu Shamim Mohammad Arif. "Depression Analysis from Social Media Data in Bangla Language using Long Short Term Memory (LSTM) Recurrent Neural Network Technique." In 2019 International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2), pp. 1-4. IEEE, 2019. DOI: 10.1109/IC4ME247184.2019.9036528  
-3. **Uddin, Abdul Hasib**, Sumit Kumar Dam, and Abu Shamim Mohammad Arif. "Extracting Severe Negative Sentence Pattern from Bangla Data via Long Short-term Memory Neural Network." In 2019 4th International Conference on Electrical Information and Communication Technology (EICT), pp. 1-6. IEEE, 2019. DOI: 10.1109/EICT48899.2019.9068794  
+1. **Uddin, Abdul Hasib**, Durjoy Bapery, and Abu Shamim Mohammad Arif. "Depression Analysis of Bangla Social Media Data using Gated Recurrent Neural Network." In 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), pp. 1-6. IEEE, 2019. DOI: 10.1109/ICASERT.2019.8934455  Link: https://ieeexplore.ieee.org/document/8934455  
+2. **Uddin, Abdul Hasib**, Durjoy Bapery, and Abu Shamim Mohammad Arif. "Depression Analysis from Social Media Data in Bangla Language using Long Short Term Memory (LSTM) Recurrent Neural Network Technique." In 2019 International Conference on Computer, Communication, Chemical, Materials and Electronic Engineering (IC4ME2), pp. 1-4. IEEE, 2019. DOI: 10.1109/IC4ME247184.2019.9036528  Link: https://ieeexplore.ieee.org/document/9036528  
+3. **Uddin, Abdul Hasib**, Sumit Kumar Dam, and Abu Shamim Mohammad Arif. "Extracting Severe Negative Sentence Pattern from Bangla Data via Long Short-term Memory Neural Network." In 2019 4th International Conference on Electrical Information and Communication Technology (EICT), pp. 1-6. IEEE, 2019. DOI: 10.1109/EICT48899.2019.9068794  Link: https://ieeexplore.ieee.org/document/9068794  
